@@ -1,0 +1,296 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none; }
+
+.TextoContaminacion {
+  color: orange;
+  text-transform: uppercase;
+  line-height: 1.5; }
+
+.formulario {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold; }
+
+.centrado {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 30px; }
+
+.textoreciclado {
+  color: white;
+  font-style: oblique;
+  font-weight: bold;
+  font-family: "Comic Sans MS"; }
+
+.tabla {
+  border: 1px;
+  border: green 5px solid;
+  color: olivedrab; }
+
+body {
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/leaves-pattern.png);
+  background-size: 500px; }
+
+.ListaParaReciclar {
+  list-style-position: inside; }
+
+.FormularioCompleto {
+  background-image: url(https://clinicadentalbarqueta.com/wp-content/uploads/2014/03/fondo-formulario.jpg);
+  background-position: center;
+  background-size: 1400px;
+  background-repeat: no-repeat;
+  padding-top: 200px;
+  padding-bottom: 200px; }
+
+.primerArticulo {
+  width: 600px;
+  height: 500px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #114b09;
+  flex-basis: 1000px;
+  order: 1; }
+
+.textoInicio {
+  padding-bottom: 500px;
+  padding-top: 100px; }
+
+.divImagendeinicio {
+  display: flex;
+  width: 1800px;
+  height: 600px;
+  background-color: #134213;
+  margin: 50px;
+  padding: 20px 400px 20px 400px; }
+
+.divArticulo {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-top: 200px; }
+
+.imagenParareciclar {
+  width: 300px;
+  height: 300px;
+  padding-bottom: 10px;
+  transition: height 2s, width 2s; }
+
+.imagenParareciclar:hover {
+  width: 350px;
+  height: 350px; }
+
+.parafoReciclado {
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: solid 4px black; }
+
+.añosReciclado {
+  text-align: center;
+  font-size: 42px;
+  color: black;
+  text-transform: uppercase;
+  padding-top: 20px; }
+
+.tituloContaminacion {
+  text-align: center;
+  font-size: 50px;
+  color: black;
+  text-transform: uppercase;
+  padding-bottom: 100px;
+  padding-top: 100px; }
+
+.paraReciclar {
+  background-color: #275227;
+  height: 500px;
+  width: 500px;
+  margin: 10px;
+  padding: 40px 100px 20px 100px; }
+
+.divPadre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch; }
+
+.divLugar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.lugar {
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #114b09;
+  flex-basis: 1000px;
+  order: 1; }
+
+.divReciclo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+
+.queReciclo {
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #114b09;
+  flex-basis: 1000px;
+  order: 1; }
+
+.imagenQuereciclo {
+  width: 250px;
+  height: 250px; }
+
+.imagenQuereciclo:hover {
+  transform: scale(2, 2); }
+
+.gridPadre {
+  display: grid;
+  grid-template-columns: 1fr 2fr 3fr;
+  grid-template-rows: 2fr 2fr 2fr;
+  height: 80vh;
+  grid-gap: 10px;
+  padding: 10px;
+  background-color: blueviolet; }
+
+.hijogrid {
+  border: 2px solid black; }
+
+@media only screen and (min-width: 768px) {
+  .gridPadre {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    height: 80vh;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: blueviolet; }
+  .hijogrid {
+    border: 2px solid black; } }
+
+@media only screen and (min-width: 768px) and (min-width: 768px) and (max-width: 1023px) {
+  .gridPadre {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    height: 80vh;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: blueviolet; }
+  .hijogrid {
+    border: 2px solid black; } }
+
+@media only screen and (min-width: 768px) and (min-width: 1024px) {
+  .gridPadre {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    height: 80vh;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: blueviolet; }
+  .hijogrid {
+    border: 2px solid black; } }
+
+@media only screen and (min-width: 768px) and (min-width: 320px) and (max-width: 767px) {
+  .gridPadre {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    height: 80vh;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: blueviolet; }
+  .hijogrid {
+    border: 2px solid black; } }
+
+.logo {
+  width: 350px;
+  height: 50px; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #114b09; }
+
+.itemList {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 13px;
+  width: 200px;
+  height: 50px;
+  padding: 15px 5px 10px 5px;
+  margin: 1px; }
+
+a {
+  color: white; }
+
+.itemList:hover {
+  background-color: white; }
+  .itemList:hover a {
+    color: black; }
+
+.navegacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+footer {
+  background-color: #114b09; }
+
+.itemFooter {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px 10px 0px 10px; }
+
+.itemFooterImg {
+  width: 50px;
+  height: 50px;
+  padding: 5px;
+  margin-right: 10px; }
+
+.divfooter {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+.botellaDeamor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+.listaBotella li {
+  padding-bottom: 20px; }
+
+.tituloBotella {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Bebas Neue', cursive;
+  font-weight: bold;
+  padding-bottom: 100px; }
+
+.divBotella1 {
+  font-size: 30px;
+  padding: 50px 0px 0px 250px; }
+
+.divBotella3 {
+  font-size: 30px;
+  padding-right: 250px; }

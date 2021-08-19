@@ -1,0 +1,39 @@
+.logo{
+      
+    width: 350px;
+    height: 50px;
+   ;
+}
+
+header{
+    display: flex; flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(17, 75, 9);
+}
+.itemList{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 13px;
+    width: 200px;
+    height: 50px;
+   padding: 15px 5px 10px 5px;
+   margin: 1px;
+}
+a{
+    color: white;
+    
+}
+
+
+.itemList:hover{
+    a{
+        color: black;
+    }
+    background-color: white;
+}
+.navegacion{
+    display: flex; flex-direction: row;
+    justify-content: flex-end;
+}
